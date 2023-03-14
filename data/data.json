@@ -1,0 +1,165 @@
+{
+    "restaurants": [
+      {
+        "id": 1,
+        "imgUrl": "https://st2.depositphotos.com/4687049/6972/i/950/depositphotos_69724327-stock-photo-dish-with-meat-rice-and.jpg",
+        "title": "Restaurante A",
+        "rating": 4.5,
+        "genre": "Cozinha Italiana",
+        "address": "Rua A, 123 - Bairro X, Cidade Y",
+        "short_description": "Comida italiana de qualidade em ambiente aconchegante.",
+        "dishes": [
+          "Pizza Margherita",
+          "Spaghetti alla Carbonara",
+          "Tiramisu"
+        ],
+        "long": -46.654321,
+        "lat": -23.456789
+      },
+      {
+        "id": 2,
+        "imgUrl": "https://st2.depositphotos.com/4687049/8400/i/950/depositphotos_84001798-stock-photo-beef-rice-and-beans.jpg",
+        "title": "Restaurante B",
+        "rating": 4.2,
+        "genre": "Cozinha Japonesa",
+        "address": "Rua B, 456 - Bairro Y, Cidade Z",
+        "short_description": "Sushi e sashimi de alta qualidade em ambiente moderno.",
+        "dishes": [
+          "Sushi de salmão",
+          "Sashimi de atum",
+          "Tempurá de camarão"
+        ],
+        "long": -46.765432,
+        "lat": -23.567890
+      },
+      {
+        "id": 3,
+        "imgUrl": "https://st2.depositphotos.com/4687049/8398/i/950/depositphotos_83981562-stock-photo-delicious-beef-steak.jpg",
+        "title": "Restaurante C",
+        "rating": 4.0,
+        "genre": "Cozinha Brasileira",
+        "address": "Rua C, 789 - Bairro Z, Cidade X",
+        "short_description": "Comida brasileira caseira em ambiente familiar.",
+        "dishes": [
+          "Feijoada",
+          "Arroz e feijão",
+          "Farofa"
+        ],
+        "long": -46.876543,
+        "lat": -23.678901
+      },
+      {
+        "id": 4,
+        "imgUrl": "https://st2.depositphotos.com/1020618/7017/i/950/depositphotos_70177953-stock-photo-beef-rump-steak-on-black.jpg",
+        "title": "Restaurante D",
+        "rating": 3.8,
+        "genre": "Cozinha Mexicana",
+        "address": "Rua D, 987 - Bairro W, Cidade Z",
+        "short_description": "Comida mexicana autêntica em ambiente descontraído.",
+        "dishes": [
+          "Tacos",
+          "Burritos",
+          "Guacamole"
+        ],
+        "long": -46.987654,
+        "lat": -23.789012
+      },
+      {
+        "id": 5,
+        "imgUrl": "https://st.depositphotos.com/1020618/4985/i/950/depositphotos_49853237-stock-photo-tasty-beef-steak.jpg",
+        "title": "Restaurante E",
+        "rating": 3.5,
+        "genre": "Cozinha Chinesa",
+        "address": "Rua E, 654 - Bairro V, Cidade W",
+        "short_description": "Comida chinesa variada em ambiente simples.",
+        "dishes": [
+          "Frango Xadrez",
+          "Yakissoba",
+          "Rolinho Primavera"
+        ],
+        "long": -47.098765,
+        "lat": -23.890123
+      },
+      {
+        "id": 6,
+        "imgUrl": "https://st2.depositphotos.com/4687049/6972/i/950/depositphotos_69724327-stock-photo-dish-with-meat-rice-and.jpg",
+        "title": "Restaurante A",
+        "rating": 4.5,
+        "genre": "Cozinha Italiana",
+        "address": "Rua A, 123 - Bairro X, Cidade Y",
+        "short_description": "Comida italiana de qualidade em ambiente aconchegante.",
+        "dishes": [
+          "Pizza Margherita",
+          "Spaghetti alla Carbonara",
+          "Tiramisu"
+        ],
+        "long": -46.654321,
+        "lat": -23.456789
+      },
+      {
+        "id": 7,
+        "imgUrl": "https://st2.depositphotos.com/4687049/8400/i/950/depositphotos_84001798-stock-photo-beef-rice-and-beans.jpg",
+        "title": "Restaurante B",
+        "rating": 4.2,
+        "genre": "Cozinha Japonesa",
+        "address": "Rua B, 456 - Bairro Y, Cidade Z",
+        "short_description": "Sushi e sashimi de alta qualidade em ambiente moderno.",
+        "dishes": [
+          "Sushi de salmão",
+          "Sashimi de atum",
+          "Tempurá de camarão"
+        ],
+        "long": -46.765432,
+        "lat": -23.567890
+      },
+      {
+        "id": 8,
+        "imgUrl": "https://st2.depositphotos.com/4687049/8398/i/950/depositphotos_83981562-stock-photo-delicious-beef-steak.jpg",
+        "title": "Restaurante C",
+        "rating": 4.0,
+        "genre": "Cozinha Brasileira",
+        "address": "Rua C, 789 - Bairro Z, Cidade X",
+        "short_description": "Comida brasileira caseira em ambiente familiar.",
+        "dishes": [
+          "Feijoada",
+          "Arroz e feijão",
+          "Farofa"
+        ],
+        "long": -46.876543,
+        "lat": -23.678901
+      },
+      {
+        "id": 9,
+        "imgUrl": "https://st2.depositphotos.com/1020618/7017/i/950/depositphotos_70177953-stock-photo-beef-rump-steak-on-black.jpg",
+        "title": "Restaurante D",
+        "rating": 3.8,
+        "genre": "Cozinha Mexicana",
+        "address": "Rua D, 987 - Bairro W, Cidade Z",
+        "short_description": "Comida mexicana autêntica em ambiente descontraído.",
+        "dishes": [
+          "Tacos",
+          "Burritos",
+          "Guacamole"
+        ],
+        "long": -46.987654,
+        "lat": -23.789012
+      },
+      {
+        "id": 10,
+        "imgUrl": "https://st.depositphotos.com/1020618/4985/i/950/depositphotos_49853237-stock-photo-tasty-beef-steak.jpg",
+        "title": "Restaurante E",
+        "rating": 3.5,
+        "genre": "Cozinha Chinesa",
+        "address": "Rua E, 654 - Bairro V, Cidade W",
+        "short_description": "Comida chinesa variada em ambiente simples.",
+        "dishes": [
+          "Frango Xadrez",
+          "Yakissoba",
+          "Rolinho Primavera"
+        ],
+        "long": -47.098765,
+        "lat": -23.890123
+      }
+    ]
+  }
+  
