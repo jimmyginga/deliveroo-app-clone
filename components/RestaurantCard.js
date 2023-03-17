@@ -1,4 +1,4 @@
-import { View, Text, Image, TouchableOpacity } from "react-native";
+import { View, Text, Image, TouchableOpacity, Pressable } from "react-native";
 import React from "react";
 import { StarIcon } from "react-native-heroicons/solid";
 import { MapPinIcon } from "react-native-heroicons/outline";

@@ -9,9 +9,41 @@
         "address": "Rua A, 123 - Bairro X, Cidade Y",
         "short_description": "Comida italiana de qualidade em ambiente aconchegante.",
         "dishes": [
-          "Pizza Margherita",
-          "Spaghetti alla Carbonara",
-          "Tiramisu"
+          {
+            "id": 1,
+            "name": "Frango Assado",
+            "description": "Um prato delicioso de frango assado com temperos",
+            "price": 25.99,
+            "imgUrl": "https://st2.depositphotos.com/4687049/8400/i/950/depositphotos_84001798-stock-photo-beef-rice-and-beans.jpg"
+          },
+          {
+            "id": 2,
+            "name": "Lasanha de Carne",
+            "description": "Uma lasanha de carne saborosa com molho de tomate",
+            "price": 18.99,
+            "imgUrl": "https://st2.depositphotos.com/4687049/8400/i/950/depositphotos_84001798-stock-photo-beef-rice-and-beans.jpg"
+          },
+          {
+            "id": 3,
+            "name": "Salmão Grelhado",
+            "description": "Um prato saudável de salmão grelhado com legumes",
+            "price": 32.99,
+            "imgUrl": "https://st2.depositphotos.com/4687049/8400/i/950/depositphotos_84001798-stock-photo-beef-rice-and-beans.jpg"
+          },
+          {
+            "id": 4,
+            "name": "Massa com Molho Pesto",
+            "description": "Uma massa deliciosa com molho pesto de manjericão",
+            "price": 14.99,
+            "imgUrl": "https://st2.depositphotos.com/4687049/8400/i/950/depositphotos_84001798-stock-photo-beef-rice-and-beans.jpg"
+          },
+          {
+            "id": 5,
+            "name": "Hambúrguer",
+            "description": "Um hambúrguer suculento com queijo e batatas fritas",
+            "price": 10.99,
+            "imgUrl": "https://st2.depositphotos.com/4687049/8400/i/950/depositphotos_84001798-stock-photo-beef-rice-and-beans.jpg"
+          }
         ],
         "long": -46.654321,
         "lat": -23.456789
@@ -25,9 +57,41 @@
         "address": "Rua B, 456 - Bairro Y, Cidade Z",
         "short_description": "Sushi e sashimi de alta qualidade em ambiente moderno.",
         "dishes": [
-          "Sushi de salmão",
-          "Sashimi de atum",
-          "Tempurá de camarão"
+          {
+            "id": 1,
+            "name": "Frango Assado",
+            "description": "Um prato delicioso de frango assado com temperos",
+            "price": 25.99,
+            "imgUrl": "https://st2.depositphotos.com/4687049/8398/i/950/depositphotos_83981562-stock-photo-delicious-beef-steak.jpg"
+          },
+          {
+            "id": 2,
+            "name": "Lasanha de Carne",
+            "description": "Uma lasanha de carne saborosa com molho de tomate",
+            "price": 18.99,
+            "imgUrl": "https://st2.depositphotos.com/1020618/7017/i/950/depositphotos_70177953-stock-photo-beef-rump-steak-on-black.jpg"
+          },
+          {
+            "id": 3,
+            "name": "Salmão Grelhado",
+            "description": "Um prato saudável de salmão grelhado com legumes",
+            "price": 32.99,
+            "imgUrl": "https://st2.depositphotos.com/1007566/9352/i/950/depositphotos_93525528-stock-photo-grilled-salmon-fillet.jpg"
+          },
+          {
+            "id": 4,
+            "name": "Massa com Molho Pesto",
+            "description": "Uma massa deliciosa com molho pesto de manjericão",
+            "price": 14.99,
+            "imgUrl": "https://st2.depositphotos.com/2851899/8368/i/950/depositphotos_83686226-stock-photo-pasta-with-pesto-sauce.jpg"
+          },
+          {
+            "id": 5,
+            "name": "Hambúrguer",
+            "description": "Um hambúrguer suculento com queijo e batatas fritas",
+            "price": 10.99,
+            "imgUrl": "https://st2.depositphotos.com/1177973/7763/i/950/depositphotos_77636022-stock-photo-hamburger.jpg"
+          }
         ],
         "long": -46.765432,
         "lat": -23.567890
@@ -41,9 +105,41 @@
         "address": "Rua C, 789 - Bairro Z, Cidade X",
         "short_description": "Comida brasileira caseira em ambiente familiar.",
         "dishes": [
-          "Feijoada",
-          "Arroz e feijão",
-          "Farofa"
+          {
+            "id": 1,
+            "name": "Frango Assado",
+            "description": "Um prato delicioso de frango assado com temperos",
+            "price": 25.99,
+            "imgUrl": "https://st2.depositphotos.com/4687049/8400/i/950/depositphotos_84001798-stock-photo-beef-rice-and-beans.jpg"
+          },
+          {
+            "id": 2,
+            "name": "Lasanha de Carne",
+            "description": "Uma lasanha de carne saborosa com molho de tomate",
+            "price": 18.99,
+            "imgUrl": "https://st2.depositphotos.com/4687049/8400/i/950/depositphotos_84001798-stock-photo-beef-rice-and-beans.jpg"
+          },
+          {
+            "id": 3,
+            "name": "Salmão Grelhado",
+            "description": "Um prato saudável de salmão grelhado com legumes",
+            "price": 32.99,
+            "imgUrl": "https://st2.depositphotos.com/4687049/8400/i/950/depositphotos_84001798-stock-photo-beef-rice-and-beans.jpg"
+          },
+          {
+            "id": 4,
+            "name": "Massa com Molho Pesto",
+            "description": "Uma massa deliciosa com molho pesto de manjericão",
+            "price": 14.99,
+            "imgUrl": "https://st2.depositphotos.com/4687049/8400/i/950/depositphotos_84001798-stock-photo-beef-rice-and-beans.jpg"
+          },
+          {
+            "id": 5,
+            "name": "Hambúrguer",
+            "description": "Um hambúrguer suculento com queijo e batatas fritas",
+            "price": 10.99,
+            "imgUrl": "https://st2.depositphotos.com/4687049/8400/i/950/depositphotos_84001798-stock-photo-beef-rice-and-beans.jpg"
+          }
         ],
         "long": -46.876543,
         "lat": -23.678901
@@ -57,9 +153,41 @@
         "address": "Rua D, 987 - Bairro W, Cidade Z",
         "short_description": "Comida mexicana autêntica em ambiente descontraído.",
         "dishes": [
-          "Tacos",
-          "Burritos",
-          "Guacamole"
+          {
+            "id": 1,
+            "name": "Frango Assado",
+            "description": "Um prato delicioso de frango assado com temperos",
+            "price": 25.99,
+            "imgUrl": "https://st2.depositphotos.com/4687049/8398/i/950/depositphotos_83982524-stock-photo-roasted-chicken.jpg"
+          },
+          {
+            "id": 2,
+            "name": "Lasanha de Carne",
+            "description": "Uma lasanha de carne saborosa com molho de tomate",
+            "price": 18.99,
+            "imgUrl": "https://st2.depositphotos.com/1161788/11431/i/950/depositphotos_114318058-stock-photo-lasagna.jpg"
+          },
+          {
+            "id": 3,
+            "name": "Salmão Grelhado",
+            "description": "Um prato saudável de salmão grelhado com legumes",
+            "price": 32.99,
+            "imgUrl": "https://st2.depositphotos.com/1007566/9352/i/950/depositphotos_93525528-stock-photo-grilled-salmon-fillet.jpg"
+          },
+          {
+            "id": 4,
+            "name": "Massa com Molho Pesto",
+            "description": "Uma massa deliciosa com molho pesto de manjericão",
+            "price": 14.99,
+            "imgUrl": "https://st2.depositphotos.com/2851899/8368/i/950/depositphotos_83686226-stock-photo-pasta-with-pesto-sauce.jpg"
+          },
+          {
+            "id": 5,
+            "name": "Hambúrguer",
+            "description": "Um hambúrguer suculento com queijo e batatas fritas",
+            "price": 10.99,
+            "imgUrl": "https://st2.depositphotos.com/1177973/7763/i/950/depositphotos_77636022-stock-photo-hamburger.jpg"
+          }
         ],
         "long": -46.987654,
         "lat": -23.789012
@@ -73,9 +201,41 @@
         "address": "Rua E, 654 - Bairro V, Cidade W",
         "short_description": "Comida chinesa variada em ambiente simples.",
         "dishes": [
-          "Frango Xadrez",
-          "Yakissoba",
-          "Rolinho Primavera"
+          {
+            "id": 1,
+            "name": "Frango Assado",
+            "description": "Um prato delicioso de frango assado com temperos",
+            "price": 25.99,
+            "imgUrl": "https://st2.depositphotos.com/4687049/8398/i/950/depositphotos_83982524-stock-photo-roasted-chicken.jpg"
+          },
+          {
+            "id": 2,
+            "name": "Lasanha de Carne",
+            "description": "Uma lasanha de carne saborosa com molho de tomate",
+            "price": 18.99,
+            "imgUrl": "https://st2.depositphotos.com/1161788/11431/i/950/depositphotos_114318058-stock-photo-lasagna.jpg"
+          },
+          {
+            "id": 3,
+            "name": "Salmão Grelhado",
+            "description": "Um prato saudável de salmão grelhado com legumes",
+            "price": 32.99,
+            "imgUrl": "https://st2.depositphotos.com/1007566/9352/i/950/depositphotos_93525528-stock-photo-grilled-salmon-fillet.jpg"
+          },
+          {
+            "id": 4,
+            "name": "Massa com Molho Pesto",
+            "description": "Uma massa deliciosa com molho pesto de manjericão",
+            "price": 14.99,
+            "imgUrl": "https://st2.depositphotos.com/2851899/8368/i/950/depositphotos_83686226-stock-photo-pasta-with-pesto-sauce.jpg"
+          },
+          {
+            "id": 5,
+            "name": "Hambúrguer",
+            "description": "Um hambúrguer suculento com queijo e batatas fritas",
+            "price": 10.99,
+            "imgUrl": "https://st2.depositphotos.com/1177973/7763/i/950/depositphotos_77636022-stock-photo-hamburger.jpg"
+          }
         ],
         "long": -47.098765,
         "lat": -23.890123
@@ -89,9 +249,41 @@
         "address": "Rua A, 123 - Bairro X, Cidade Y",
         "short_description": "Comida italiana de qualidade em ambiente aconchegante.",
         "dishes": [
-          "Pizza Margherita",
-          "Spaghetti alla Carbonara",
-          "Tiramisu"
+          {
+            "id": 1,
+            "name": "Frango Assado",
+            "description": "Um prato delicioso de frango assado com temperos",
+            "price": 25.99,
+            "imgUrl": "https://st2.depositphotos.com/4687049/8398/i/950/depositphotos_83982524-stock-photo-roasted-chicken.jpg"
+          },
+          {
+            "id": 2,
+            "name": "Lasanha de Carne",
+            "description": "Uma lasanha de carne saborosa com molho de tomate",
+            "price": 18.99,
+            "imgUrl": "https://st2.depositphotos.com/1161788/11431/i/950/depositphotos_114318058-stock-photo-lasagna.jpg"
+          },
+          {
+            "id": 3,
+            "name": "Salmão Grelhado",
+            "description": "Um prato saudável de salmão grelhado com legumes",
+            "price": 32.99,
+            "imgUrl": "https://st2.depositphotos.com/1007566/9352/i/950/depositphotos_93525528-stock-photo-grilled-salmon-fillet.jpg"
+          },
+          {
+            "id": 4,
+            "name": "Massa com Molho Pesto",
+            "description": "Uma massa deliciosa com molho pesto de manjericão",
+            "price": 14.99,
+            "imgUrl": "https://st2.depositphotos.com/2851899/8368/i/950/depositphotos_83686226-stock-photo-pasta-with-pesto-sauce.jpg"
+          },
+          {
+            "id": 5,
+            "name": "Hambúrguer",
+            "description": "Um hambúrguer suculento com queijo e batatas fritas",
+            "price": 10.99,
+            "imgUrl": "https://st2.depositphotos.com/1177973/7763/i/950/depositphotos_77636022-stock-photo-hamburger.jpg"
+          }
         ],
         "long": -46.654321,
         "lat": -23.456789
@@ -105,9 +297,41 @@
         "address": "Rua B, 456 - Bairro Y, Cidade Z",
         "short_description": "Sushi e sashimi de alta qualidade em ambiente moderno.",
         "dishes": [
-          "Sushi de salmão",
-          "Sashimi de atum",
-          "Tempurá de camarão"
+          {
+            "id": 1,
+            "name": "Frango Assado",
+            "description": "Um prato delicioso de frango assado com temperos",
+            "price": 25.99,
+            "imgUrl": "https://st2.depositphotos.com/4687049/8398/i/950/depositphotos_83982524-stock-photo-roasted-chicken.jpg"
+          },
+          {
+            "id": 2,
+            "name": "Lasanha de Carne",
+            "description": "Uma lasanha de carne saborosa com molho de tomate",
+            "price": 18.99,
+            "imgUrl": "https://st2.depositphotos.com/1161788/11431/i/950/depositphotos_114318058-stock-photo-lasagna.jpg"
+          },
+          {
+            "id": 3,
+            "name": "Salmão Grelhado",
+            "description": "Um prato saudável de salmão grelhado com legumes",
+            "price": 32.99,
+            "imgUrl": "https://st2.depositphotos.com/1007566/9352/i/950/depositphotos_93525528-stock-photo-grilled-salmon-fillet.jpg"
+          },
+          {
+            "id": 4,
+            "name": "Massa com Molho Pesto",
+            "description": "Uma massa deliciosa com molho pesto de manjericão",
+            "price": 14.99,
+            "imgUrl": "https://st2.depositphotos.com/2851899/8368/i/950/depositphotos_83686226-stock-photo-pasta-with-pesto-sauce.jpg"
+          },
+          {
+            "id": 5,
+            "name": "Hambúrguer",
+            "description": "Um hambúrguer suculento com queijo e batatas fritas",
+            "price": 10.99,
+            "imgUrl": "https://st2.depositphotos.com/1177973/7763/i/950/depositphotos_77636022-stock-photo-hamburger.jpg"
+          }
         ],
         "long": -46.765432,
         "lat": -23.567890
@@ -121,9 +345,41 @@
         "address": "Rua C, 789 - Bairro Z, Cidade X",
         "short_description": "Comida brasileira caseira em ambiente familiar.",
         "dishes": [
-          "Feijoada",
-          "Arroz e feijão",
-          "Farofa"
+          {
+            "id": 1,
+            "name": "Frango Assado",
+            "description": "Um prato delicioso de frango assado com temperos",
+            "price": 25.99,
+            "imgUrl": "https://st2.depositphotos.com/4687049/8398/i/950/depositphotos_83982524-stock-photo-roasted-chicken.jpg"
+          },
+          {
+            "id": 2,
+            "name": "Lasanha de Carne",
+            "description": "Uma lasanha de carne saborosa com molho de tomate",
+            "price": 18.99,
+            "imgUrl": "https://st2.depositphotos.com/1161788/11431/i/950/depositphotos_114318058-stock-photo-lasagna.jpg"
+          },
+          {
+            "id": 3,
+            "name": "Salmão Grelhado",
+            "description": "Um prato saudável de salmão grelhado com legumes",
+            "price": 32.99,
+            "imgUrl": "https://st2.depositphotos.com/1007566/9352/i/950/depositphotos_93525528-stock-photo-grilled-salmon-fillet.jpg"
+          },
+          {
+            "id": 4,
+            "name": "Massa com Molho Pesto",
+            "description": "Uma massa deliciosa com molho pesto de manjericão",
+            "price": 14.99,
+            "imgUrl": "https://st2.depositphotos.com/2851899/8368/i/950/depositphotos_83686226-stock-photo-pasta-with-pesto-sauce.jpg"
+          },
+          {
+            "id": 5,
+            "name": "Hambúrguer",
+            "description": "Um hambúrguer suculento com queijo e batatas fritas",
+            "price": 10.99,
+            "imgUrl": "https://st2.depositphotos.com/1177973/7763/i/950/depositphotos_77636022-stock-photo-hamburger.jpg"
+          }
         ],
         "long": -46.876543,
         "lat": -23.678901
