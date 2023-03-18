@@ -14,7 +14,7 @@ import BasketIcon from "../components/BasketIcon";
 import { useDispatch, useSelector } from "react-redux";
 import { setRestaurant } from "../features/restaurantSlice";
 import { selectBasketItems } from "../features/basketSlice";
-const Restaurant = () => {
+const RestaurantScreen = () => {
   const {
     params: {
       id,
@@ -105,4 +105,4 @@ const Restaurant = () => {
   );
 };
 
-export default Restaurant;
+export default RestaurantScreen;

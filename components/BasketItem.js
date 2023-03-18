@@ -2,7 +2,6 @@ import React from "react";
 import { View, Text, Image, TouchableOpacity } from "react-native";
 import Currency from "react-currency-formatter";
 const BasketItem = ({ qty, imgUrl, restauranteName, value }) => {
-  console.log( qty, imgUrl, restauranteName, value)
   return (
     <View className="flex-row items-center justify-between  bg-white p-3">
       <View className="space-x-2 flex-row items-center">
@@ -15,7 +14,7 @@ const BasketItem = ({ qty, imgUrl, restauranteName, value }) => {
         <Currency quantity={value} currency="USD" />
         </Text>
         <TouchableOpacity>
-          <Text className="text-[#00CCBB]">Eliminar</Text>
+          <Text className="text-[#00CCBB]">remove</Text>
         </TouchableOpacity>
       </View>
     </View>

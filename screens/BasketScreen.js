@@ -1,3 +1,4 @@
+import React, { useMemo, useState } from "react";
 import {
   View,
   Text,
@@ -6,21 +7,21 @@ import {
   ScrollView,
   TouchableOpacity,
 } from "react-native";
-import React, { useEffect, useMemo, useState } from "react";
 import { XCircleIcon } from "react-native-heroicons/solid";
 import BasketItem from "../components/BasketItem";
 import { useNavigation } from "@react-navigation/native";
 import { useSelector } from "react-redux";
 import { selectRestaurant } from "../features/restaurantSlice";
-import { selectBasketItems } from "../features/basketSlice";
+import { selectBasketItems, selectTotal } from "../features/basketSlice";
+import Currency from "react-currency-formatter"
 
 const BasketScreen = () => {
   const navigation = useNavigation();
   const restaurant = useSelector(selectRestaurant);
   const items = useSelector(selectBasketItems);
+  const total = useSelector(selectTotal)
   const [groupItemsInBasket, setGroupItemsInBasket] = useState([]);
 
-  console.log("==>", typeof groupItemsInBasket)
   useMemo(() => {
     const groupedItems = items.reduce((resutls, item) => {
       (resutls[item.id] = resutls[item.id] || []).push(item);
@@ -47,7 +48,7 @@ const BasketScreen = () => {
             }}
             className="w-10 h-10 rounded-full"
           />
-          <Text className="flex-1">Deliver at 06:54 am</Text>
+          <Text className="flex-1">Deliver in 06 - 30 min</Text>
           <Text className="text-[#00CCBB]">Change</Text>
         </View>
         <ScrollView>
@@ -66,17 +67,23 @@ const BasketScreen = () => {
       <View className="absolute bottom-0 py-2 bg-white w-full">
         <View className="flex-row justify-between items-center p-3">
           <Text className="text-gray-500">Subtotal</Text>
-          <Text className="text-gray-500">$23</Text>
+          <Text className="text-gray-500">
+            <Currency quantity={total} currency="USD"/>
+          </Text>
         </View>
         <View className="flex-row justify-between items-center p-3">
           <Text className="text-gray-500">Delivery fee</Text>
-          <Text className="text-gray-500">$23</Text>
+          <Text className="text-gray-500">
+            <Currency quantity={5.99} currency="USD"/>
+          </Text>
         </View>
         <View className="flex-row justify-between items-center p-3">
           <Text className="font-bold">Order Total</Text>
-          <Text className="font-bold">$23</Text>
+          <Text className="font-bold">
+            <Currency quantity={total + 5.99} currency="USD"/>
+          </Text>
         </View>
-        <TouchableOpacity className=" p-5 m-3 bg-[#00CCBB] my-5 rounded-md">
+        <TouchableOpacity onPress={()=>navigation.navigate("PrepareOrder")} className=" p-5 m-3 bg-[#00CCBB] my-5 rounded-md">
           <Text className="text-white font-bold text-center">Place Order</Text>
         </TouchableOpacity>
       </View>
