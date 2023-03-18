@@ -13,7 +13,7 @@ import { restaurants } from "../data/data.json";
 import BasketIcon from "../components/BasketIcon";
 import { useDispatch, useSelector } from "react-redux";
 import { setRestaurant } from "../features/restaurantSlice";
-import { selectBasketItems } from "../features/basketSlice";
+
 const RestaurantScreen = () => {
   const {
     params: {
@@ -31,7 +31,6 @@ const RestaurantScreen = () => {
   } = useRoute();
   const navigation = useNavigation();
   const dispatch = useDispatch();
-  const items = useSelector(selectBasketItems);
 
   useLayoutEffect(() => {
     navigation.setOptions({

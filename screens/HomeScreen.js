@@ -1,4 +1,4 @@
-import { View, Text, ScrollView } from "react-native";
+import { ScrollView } from "react-native";
 import { useLayoutEffect } from "react";
 import { useNavigation } from "@react-navigation/native";
 import { SafeAreaView } from "react-native-safe-area-context";
@@ -7,6 +7,7 @@ import Categories from "../components/Categories";
 import FeaturedRow from "../components/FeaturedRow";
 import RestaurantCard from "../components/RestaurantCard";
 import { restaurants } from "../data/data.json";
+
 const HomeScreen = () => {
   const navigation = useNavigation();
   useLayoutEffect(() => {
@@ -22,8 +23,8 @@ const HomeScreen = () => {
         <Categories />
         <FeaturedRow
           id="123"
-          title="Pratos Títicos"
-          description="Confira os pratos típicos dos restaurantes associados a nós"
+          title="Reataurants near you"
+          description="List of restaurants closest to you"
           featuredCategory="featured"
         />
         <ScrollView horizontal showsHorizontalScrollIndicator={false}>
@@ -45,8 +46,8 @@ const HomeScreen = () => {
         </ScrollView>
         <FeaturedRow
           id="1234"
-          title="Pratos principais"
-          description="Confira a lista de pratos principais"
+          title="Featured dishes"
+          description="Check out the list of featured dishes"
           featuredCategory="featured"
         />
         <ScrollView horizontal showsHorizontalScrollIndicator={false}>
@@ -68,8 +69,8 @@ const HomeScreen = () => {
         </ScrollView>
         <FeaturedRow
           id="1235"
-          title="Sobremesas"
-          description="Payments"
+          title="Desserts"
+          description="Check out the best desserts for you"
           featuredCategory="featured"
         />
         <ScrollView horizontal showsHorizontalScrollIndicator={false}

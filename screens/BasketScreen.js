@@ -48,7 +48,7 @@ const BasketScreen = () => {
             }}
             className="w-10 h-10 rounded-full"
           />
-          <Text className="flex-1">Deliver in 06 - 30 min</Text>
+          <Text className="flex-1">Deliver in 20 - 40 min</Text>
           <Text className="text-[#00CCBB]">Change</Text>
         </View>
         <ScrollView>
