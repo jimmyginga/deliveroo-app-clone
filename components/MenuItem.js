@@ -28,7 +28,7 @@ const MenuItem = ({ id, title, desc, imgUrl, price }) => {
         </View>
         <Image
           source={{
-            uri: "https://st2.depositphotos.com/4687049/8400/i/950/depositphotos_84001798-stock-photo-beef-rice-and-beans.jpg",
+            uri: imgUrl,
           }}
           className="w-20 h-30"
         />

@@ -1,5 +1,5 @@
 import { View, Text, ScrollView, Image, TouchableOpacity } from "react-native";
-import React, { useEffect, useLayoutEffect } from "react";
+import React, { useEffect, useLayoutEffect, useState } from "react";
 import { useNavigation, useRoute } from "@react-navigation/native";
 import {
   ArrowLeftIcon,
@@ -12,7 +12,7 @@ import MenuItem from "../components/MenuItem";
 import { restaurants } from "../data/data.json";
 import BasketIcon from "../components/BasketIcon";
 import { useDispatch, useSelector } from "react-redux";
-import { setRestaurant } from "../features/restaurantSlice";
+import { selectRestaurant, setRestaurant } from "../features/restaurantSlice";
 
 const RestaurantScreen = () => {
   const {
@@ -31,6 +31,16 @@ const RestaurantScreen = () => {
   } = useRoute();
   const navigation = useNavigation();
   const dispatch = useDispatch();
+
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    setIndex(
+      restaurants.findIndex((item) => {
+        return item.id === id;
+      })
+    );
+  }, [id]);
 
   useLayoutEffect(() => {
     navigation.setOptions({
@@ -57,7 +67,7 @@ const RestaurantScreen = () => {
 
   return (
     <>
-      <ScrollView className="bg-gray-200">
+      <ScrollView className="mb-20">
         <View className="relative bg-white">
           <Image
             source={{
@@ -88,13 +98,13 @@ const RestaurantScreen = () => {
           </View>
         </View>
         <Text className="m-4 font-bold text-xl">Menu</Text>
-        {restaurants[0].dishes.map((restaurant) => (
+        {restaurants[index].dishes.map((restaurant) => (
           <MenuItem
             key={restaurant.id}
             id={restaurant.id}
-            title={restaurant.name}
+            title={restaurant.title}
             imgUrl={restaurant.imgUrl}
-            desc={restaurant.description}
+            desc={restaurant.desc}
             price={restaurant.price}
           />
         ))}

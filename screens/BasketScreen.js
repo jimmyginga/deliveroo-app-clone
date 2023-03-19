@@ -37,7 +37,7 @@ const BasketScreen = () => {
           <View></View>
           <View className="items-center">
             <Text className="font-bold text-xl text-justify">Basket</Text>
-            <Text>{restaurant.name}</Text>
+            <Text>{restaurant.title}</Text>
           </View>
           <XCircleIcon onPress={navigation.goBack} size={40} color="#00CCBB" />
         </View>

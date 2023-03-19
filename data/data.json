@@ -2,419 +2,118 @@
     "restaurants": [
       {
         "id": 1,
-        "imgUrl": "https://st2.depositphotos.com/4687049/6972/i/950/depositphotos_69724327-stock-photo-dish-with-meat-rice-and.jpg",
-        "title": "Restaurante A",
-        "rating": 4.5,
-        "genre": "Cozinha Italiana",
-        "address": "Rua A, 123 - Bairro X, Cidade Y",
-        "short_description": "Comida italiana de qualidade em ambiente aconchegante.",
+        "imgUrl": "https://s.hdnux.com/photos/01/24/55/73/22208227/4/1200x0.jpg",
+        "title": "La Ciccia",
+        "rating": 4.6,
+        "genre": "Sardinian",
+        "address": "291 30th St, San Francisco, CA 94131",
+        "short_description": "Popular Sardinian spot offering pasta dishes, cured meats & cheese plates in a rustic, cozy setting.",
         "dishes": [
           {
             "id": 1,
-            "name": "Frango Assado",
-            "description": "Um prato delicioso de frango assado com temperos",
-            "price": 25.99,
-            "imgUrl": "https://st2.depositphotos.com/4687049/8400/i/950/depositphotos_84001798-stock-photo-beef-rice-and-beans.jpg"
+            "title": "Spaghetti alla Bottarga",
+            "desc": "Spaghetti with cured fish roe, garlic, red pepper flakes, and olive oil.",
+            "imgUrl": "https://www.fornellidisicilia.it/wp-content/uploads/2022/08/Pasta-con-pomodori-secchi-e-tonno.jpg",
+            "price": 22.0
           },
           {
             "id": 2,
-            "name": "Lasanha de Carne",
-            "description": "Uma lasanha de carne saborosa com molho de tomate",
-            "price": 18.99,
-            "imgUrl": "https://st2.depositphotos.com/4687049/8400/i/950/depositphotos_84001798-stock-photo-beef-rice-and-beans.jpg"
-          },
-          {
-            "id": 3,
-            "name": "Salmão Grelhado",
-            "description": "Um prato saudável de salmão grelhado com legumes",
-            "price": 32.99,
-            "imgUrl": "https://st2.depositphotos.com/4687049/8400/i/950/depositphotos_84001798-stock-photo-beef-rice-and-beans.jpg"
-          },
-          {
-            "id": 4,
-            "name": "Massa com Molho Pesto",
-            "description": "Uma massa deliciosa com molho pesto de manjericão",
-            "price": 14.99,
-            "imgUrl": "https://st2.depositphotos.com/4687049/8400/i/950/depositphotos_84001798-stock-photo-beef-rice-and-beans.jpg"
-          },
-          {
-            "id": 5,
-            "name": "Hambúrguer",
-            "description": "Um hambúrguer suculento com queijo e batatas fritas",
-            "price": 10.99,
-            "imgUrl": "https://st2.depositphotos.com/4687049/8400/i/950/depositphotos_84001798-stock-photo-beef-rice-and-beans.jpg"
+            "title": "Bistecca alla Fiorentina",
+            "desc": "Grilled T-bone steak seasoned with sea salt and rosemary, served with roasted potatoes and sautéed spinach.",
+            "imgUrl": "https://www.eataly.com/wp/wp-content/uploads/2018/05/eataly-osteria-del-mercato-bistecca-fiorentina-steak.jpg",
+            "price": 48.0
           }
         ],
-        "long": -46.654321,
-        "lat": -23.456789
+        "long": -122.42844,
+        "lat": 37.74204
       },
       {
         "id": 2,
-        "imgUrl": "https://st2.depositphotos.com/4687049/8400/i/950/depositphotos_84001798-stock-photo-beef-rice-and-beans.jpg",
-        "title": "Restaurante B",
-        "rating": 4.2,
-        "genre": "Cozinha Japonesa",
-        "address": "Rua B, 456 - Bairro Y, Cidade Z",
-        "short_description": "Sushi e sashimi de alta qualidade em ambiente moderno.",
+        "imgUrl": "https://s.hdnux.com/photos/74/73/61/15973475/6/1200x0.jpg",
+        "title": "State Bird Provisions",
+        "rating": 4.5,
+        "genre": "American",
+        "address": "1529 Fillmore St, San Francisco, CA 94115",
+        "short_description": "Inventive New American fare served dim sum-style in a small, bustling setting with an open kitchen.",
         "dishes": [
           {
             "id": 1,
-            "name": "Frango Assado",
-            "description": "Um prato delicioso de frango assado com temperos",
-            "price": 25.99,
-            "imgUrl": "https://st2.depositphotos.com/4687049/8398/i/950/depositphotos_83981562-stock-photo-delicious-beef-steak.jpg"
+            "title": "State Bird",
+            "desc": "Fried quail served with provisions (changing accompaniments), inspired by Singapore's Hainanese chicken rice.",
+            "imgUrl": "https://testerfoodblog.files.wordpress.com/2012/05/dsc03107.jpg",
+            "price": 16.0
           },
           {
             "id": 2,
-            "name": "Lasanha de Carne",
-            "description": "Uma lasanha de carne saborosa com molho de tomate",
-            "price": 18.99,
-            "imgUrl": "https://st2.depositphotos.com/1020618/7017/i/950/depositphotos_70177953-stock-photo-beef-rump-steak-on-black.jpg"
+            "title": "Pork Belly",
+            "desc": "Roasted pork belly with plum, ginger, and lime sauce, served on a bao bun.",
+            "imgUrl": "https://healthyrecipesblogs.com/wp-content/uploads/2022/01/pork-belly-slices-1-2022.jpg",
+            "price": 14.0
           },
           {
             "id": 3,
-            "name": "Salmão Grelhado",
-            "description": "Um prato saudável de salmão grelhado com legumes",
-            "price": 32.99,
-            "imgUrl": "https://st2.depositphotos.com/1007566/9352/i/950/depositphotos_93525528-stock-photo-grilled-salmon-fillet.jpg"
-          },
-          {
-            "id": 4,
-            "name": "Massa com Molho Pesto",
-            "description": "Uma massa deliciosa com molho pesto de manjericão",
-            "price": 14.99,
-            "imgUrl": "https://st2.depositphotos.com/2851899/8368/i/950/depositphotos_83686226-stock-photo-pasta-with-pesto-sauce.jpg"
-          },
-          {
-            "id": 5,
-            "name": "Hambúrguer",
-            "description": "Um hambúrguer suculento com queijo e batatas fritas",
-            "price": 10.99,
-            "imgUrl": "https://st2.depositphotos.com/1177973/7763/i/950/depositphotos_77636022-stock-photo-hamburger.jpg"
+            "title": "Tipic Pork Belly",
+            "desc": "Roasted pork belly with plum, ginger, and lime sauce, served on a bao bun.",
+            "imgUrl": "https://healthyrecipesblogs.com/wp-content/uploads/2022/01/pork-belly-slices-1-2022.jpg",
+            "price": 14.0
           }
         ],
-        "long": -46.765432,
-        "lat": -23.567890
+        "long": -122.43288,
+        "lat": 37.78553
       },
       {
         "id": 3,
-        "imgUrl": "https://st2.depositphotos.com/4687049/8398/i/950/depositphotos_83981562-stock-photo-delicious-beef-steak.jpg",
-        "title": "Restaurante C",
-        "rating": 4.0,
-        "genre": "Cozinha Brasileira",
-        "address": "Rua C, 789 - Bairro Z, Cidade X",
-        "short_description": "Comida brasileira caseira em ambiente familiar.",
+        "imgUrl": "https://s.hdnux.com/photos/01/24/55/73/22208227/4/1200x0.jpg",
+        "title": "La Ciccia",
+        "rating": 4.6,
+        "genre": "Sardinian",
+        "address": "291 30th St, San Francisco, CA 94131",
+        "short_description": "Popular Sardinian spot offering pasta dishes, cured meats & cheese plates in a rustic, cozy setting.",
         "dishes": [
           {
             "id": 1,
-            "name": "Frango Assado",
-            "description": "Um prato delicioso de frango assado com temperos",
-            "price": 25.99,
-            "imgUrl": "https://st2.depositphotos.com/4687049/8400/i/950/depositphotos_84001798-stock-photo-beef-rice-and-beans.jpg"
+            "title": "Spaghetti alla Bottarga",
+            "desc": "Spaghetti with cured fish roe, garlic, red pepper flakes, and olive oil.",
+            "imgUrl": "https://www.fornellidisicilia.it/wp-content/uploads/2022/08/Pasta-con-pomodori-secchi-e-tonno.jpg",
+            "price": 22.0
           },
           {
             "id": 2,
-            "name": "Lasanha de Carne",
-            "description": "Uma lasanha de carne saborosa com molho de tomate",
-            "price": 18.99,
-            "imgUrl": "https://st2.depositphotos.com/4687049/8400/i/950/depositphotos_84001798-stock-photo-beef-rice-and-beans.jpg"
-          },
-          {
-            "id": 3,
-            "name": "Salmão Grelhado",
-            "description": "Um prato saudável de salmão grelhado com legumes",
-            "price": 32.99,
-            "imgUrl": "https://st2.depositphotos.com/4687049/8400/i/950/depositphotos_84001798-stock-photo-beef-rice-and-beans.jpg"
-          },
-          {
-            "id": 4,
-            "name": "Massa com Molho Pesto",
-            "description": "Uma massa deliciosa com molho pesto de manjericão",
-            "price": 14.99,
-            "imgUrl": "https://st2.depositphotos.com/4687049/8400/i/950/depositphotos_84001798-stock-photo-beef-rice-and-beans.jpg"
-          },
-          {
-            "id": 5,
-            "name": "Hambúrguer",
-            "description": "Um hambúrguer suculento com queijo e batatas fritas",
-            "price": 10.99,
-            "imgUrl": "https://st2.depositphotos.com/4687049/8400/i/950/depositphotos_84001798-stock-photo-beef-rice-and-beans.jpg"
+            "title": "Bistecca alla Fiorentina",
+            "desc": "Grilled T-bone steak seasoned with sea salt and rosemary, served with roasted potatoes and sautéed spinach.",
+            "imgUrl": "https://www.eataly.com/wp/wp-content/uploads/2018/05/eataly-osteria-del-mercato-bistecca-fiorentina-steak.jpg",
+            "price": 48.0
           }
         ],
-        "long": -46.876543,
-        "lat": -23.678901
+        "long": -122.42844,
+        "lat": 37.74204
       },
       {
         "id": 4,
-        "imgUrl": "https://st2.depositphotos.com/1020618/7017/i/950/depositphotos_70177953-stock-photo-beef-rump-steak-on-black.jpg",
-        "title": "Restaurante D",
-        "rating": 3.8,
-        "genre": "Cozinha Mexicana",
-        "address": "Rua D, 987 - Bairro W, Cidade Z",
-        "short_description": "Comida mexicana autêntica em ambiente descontraído.",
-        "dishes": [
-          {
-            "id": 1,
-            "name": "Frango Assado",
-            "description": "Um prato delicioso de frango assado com temperos",
-            "price": 25.99,
-            "imgUrl": "https://st2.depositphotos.com/4687049/8398/i/950/depositphotos_83982524-stock-photo-roasted-chicken.jpg"
-          },
-          {
-            "id": 2,
-            "name": "Lasanha de Carne",
-            "description": "Uma lasanha de carne saborosa com molho de tomate",
-            "price": 18.99,
-            "imgUrl": "https://st2.depositphotos.com/1161788/11431/i/950/depositphotos_114318058-stock-photo-lasagna.jpg"
-          },
-          {
-            "id": 3,
-            "name": "Salmão Grelhado",
-            "description": "Um prato saudável de salmão grelhado com legumes",
-            "price": 32.99,
-            "imgUrl": "https://st2.depositphotos.com/1007566/9352/i/950/depositphotos_93525528-stock-photo-grilled-salmon-fillet.jpg"
-          },
-          {
-            "id": 4,
-            "name": "Massa com Molho Pesto",
-            "description": "Uma massa deliciosa com molho pesto de manjericão",
-            "price": 14.99,
-            "imgUrl": "https://st2.depositphotos.com/2851899/8368/i/950/depositphotos_83686226-stock-photo-pasta-with-pesto-sauce.jpg"
-          },
-          {
-            "id": 5,
-            "name": "Hambúrguer",
-            "description": "Um hambúrguer suculento com queijo e batatas fritas",
-            "price": 10.99,
-            "imgUrl": "https://st2.depositphotos.com/1177973/7763/i/950/depositphotos_77636022-stock-photo-hamburger.jpg"
-          }
-        ],
-        "long": -46.987654,
-        "lat": -23.789012
-      },
-      {
-        "id": 5,
-        "imgUrl": "https://st.depositphotos.com/1020618/4985/i/950/depositphotos_49853237-stock-photo-tasty-beef-steak.jpg",
-        "title": "Restaurante E",
-        "rating": 3.5,
-        "genre": "Cozinha Chinesa",
-        "address": "Rua E, 654 - Bairro V, Cidade W",
-        "short_description": "Comida chinesa variada em ambiente simples.",
-        "dishes": [
-          {
-            "id": 1,
-            "name": "Frango Assado",
-            "description": "Um prato delicioso de frango assado com temperos",
-            "price": 25.99,
-            "imgUrl": "https://st2.depositphotos.com/4687049/8398/i/950/depositphotos_83982524-stock-photo-roasted-chicken.jpg"
-          },
-          {
-            "id": 2,
-            "name": "Lasanha de Carne",
-            "description": "Uma lasanha de carne saborosa com molho de tomate",
-            "price": 18.99,
-            "imgUrl": "https://st2.depositphotos.com/1161788/11431/i/950/depositphotos_114318058-stock-photo-lasagna.jpg"
-          },
-          {
-            "id": 3,
-            "name": "Salmão Grelhado",
-            "description": "Um prato saudável de salmão grelhado com legumes",
-            "price": 32.99,
-            "imgUrl": "https://st2.depositphotos.com/1007566/9352/i/950/depositphotos_93525528-stock-photo-grilled-salmon-fillet.jpg"
-          },
-          {
-            "id": 4,
-            "name": "Massa com Molho Pesto",
-            "description": "Uma massa deliciosa com molho pesto de manjericão",
-            "price": 14.99,
-            "imgUrl": "https://st2.depositphotos.com/2851899/8368/i/950/depositphotos_83686226-stock-photo-pasta-with-pesto-sauce.jpg"
-          },
-          {
-            "id": 5,
-            "name": "Hambúrguer",
-            "description": "Um hambúrguer suculento com queijo e batatas fritas",
-            "price": 10.99,
-            "imgUrl": "https://st2.depositphotos.com/1177973/7763/i/950/depositphotos_77636022-stock-photo-hamburger.jpg"
-          }
-        ],
-        "long": -47.098765,
-        "lat": -23.890123
-      },
-      {
-        "id": 6,
-        "imgUrl": "https://st2.depositphotos.com/4687049/6972/i/950/depositphotos_69724327-stock-photo-dish-with-meat-rice-and.jpg",
-        "title": "Restaurante A",
+        "imgUrl": "https://s.hdnux.com/photos/74/73/61/15973475/6/1200x0.jpg",
+        "title": "State Bird Provisions",
         "rating": 4.5,
-        "genre": "Cozinha Italiana",
-        "address": "Rua A, 123 - Bairro X, Cidade Y",
-        "short_description": "Comida italiana de qualidade em ambiente aconchegante.",
+        "genre": "American",
+        "address": "1529 Fillmore St, San Francisco, CA 94115",
+        "short_description": "Inventive New American fare served dim sum-style in a small, bustling setting with an open kitchen.",
         "dishes": [
           {
             "id": 1,
-            "name": "Frango Assado",
-            "description": "Um prato delicioso de frango assado com temperos",
-            "price": 25.99,
-            "imgUrl": "https://st2.depositphotos.com/4687049/8398/i/950/depositphotos_83982524-stock-photo-roasted-chicken.jpg"
+            "title": "State Bird",
+            "desc": "Fried quail served with provisions (changing accompaniments), inspired by Singapore's Hainanese chicken rice.",
+            "imgUrl": "https://testerfoodblog.files.wordpress.com/2012/05/dsc03107.jpg",
+            "price": 16.0
           },
           {
             "id": 2,
-            "name": "Lasanha de Carne",
-            "description": "Uma lasanha de carne saborosa com molho de tomate",
-            "price": 18.99,
-            "imgUrl": "https://st2.depositphotos.com/1161788/11431/i/950/depositphotos_114318058-stock-photo-lasagna.jpg"
-          },
-          {
-            "id": 3,
-            "name": "Salmão Grelhado",
-            "description": "Um prato saudável de salmão grelhado com legumes",
-            "price": 32.99,
-            "imgUrl": "https://st2.depositphotos.com/1007566/9352/i/950/depositphotos_93525528-stock-photo-grilled-salmon-fillet.jpg"
-          },
-          {
-            "id": 4,
-            "name": "Massa com Molho Pesto",
-            "description": "Uma massa deliciosa com molho pesto de manjericão",
-            "price": 14.99,
-            "imgUrl": "https://st2.depositphotos.com/2851899/8368/i/950/depositphotos_83686226-stock-photo-pasta-with-pesto-sauce.jpg"
-          },
-          {
-            "id": 5,
-            "name": "Hambúrguer",
-            "description": "Um hambúrguer suculento com queijo e batatas fritas",
-            "price": 10.99,
-            "imgUrl": "https://st2.depositphotos.com/1177973/7763/i/950/depositphotos_77636022-stock-photo-hamburger.jpg"
+            "title": "Pork Belly",
+            "desc": "Roasted pork belly with plum, ginger, and lime sauce, served on a bao bun.",
+            "imgUrl": "https://healthyrecipesblogs.com/wp-content/uploads/2022/01/pork-belly-slices-1-2022.jpg",
+            "price": 14.0
           }
         ],
-        "long": -46.654321,
-        "lat": -23.456789
-      },
-      {
-        "id": 7,
-        "imgUrl": "https://st2.depositphotos.com/4687049/8400/i/950/depositphotos_84001798-stock-photo-beef-rice-and-beans.jpg",
-        "title": "Restaurante B",
-        "rating": 4.2,
-        "genre": "Cozinha Japonesa",
-        "address": "Rua B, 456 - Bairro Y, Cidade Z",
-        "short_description": "Sushi e sashimi de alta qualidade em ambiente moderno.",
-        "dishes": [
-          {
-            "id": 1,
-            "name": "Frango Assado",
-            "description": "Um prato delicioso de frango assado com temperos",
-            "price": 25.99,
-            "imgUrl": "https://st2.depositphotos.com/4687049/8398/i/950/depositphotos_83982524-stock-photo-roasted-chicken.jpg"
-          },
-          {
-            "id": 2,
-            "name": "Lasanha de Carne",
-            "description": "Uma lasanha de carne saborosa com molho de tomate",
-            "price": 18.99,
-            "imgUrl": "https://st2.depositphotos.com/1161788/11431/i/950/depositphotos_114318058-stock-photo-lasagna.jpg"
-          },
-          {
-            "id": 3,
-            "name": "Salmão Grelhado",
-            "description": "Um prato saudável de salmão grelhado com legumes",
-            "price": 32.99,
-            "imgUrl": "https://st2.depositphotos.com/1007566/9352/i/950/depositphotos_93525528-stock-photo-grilled-salmon-fillet.jpg"
-          },
-          {
-            "id": 4,
-            "name": "Massa com Molho Pesto",
-            "description": "Uma massa deliciosa com molho pesto de manjericão",
-            "price": 14.99,
-            "imgUrl": "https://st2.depositphotos.com/2851899/8368/i/950/depositphotos_83686226-stock-photo-pasta-with-pesto-sauce.jpg"
-          },
-          {
-            "id": 5,
-            "name": "Hambúrguer",
-            "description": "Um hambúrguer suculento com queijo e batatas fritas",
-            "price": 10.99,
-            "imgUrl": "https://st2.depositphotos.com/1177973/7763/i/950/depositphotos_77636022-stock-photo-hamburger.jpg"
-          }
-        ],
-        "long": -46.765432,
-        "lat": -23.567890
-      },
-      {
-        "id": 8,
-        "imgUrl": "https://st2.depositphotos.com/4687049/8398/i/950/depositphotos_83981562-stock-photo-delicious-beef-steak.jpg",
-        "title": "Restaurante C",
-        "rating": 4.0,
-        "genre": "Cozinha Brasileira",
-        "address": "Rua C, 789 - Bairro Z, Cidade X",
-        "short_description": "Comida brasileira caseira em ambiente familiar.",
-        "dishes": [
-          {
-            "id": 1,
-            "name": "Frango Assado",
-            "description": "Um prato delicioso de frango assado com temperos",
-            "price": 25.99,
-            "imgUrl": "https://st2.depositphotos.com/4687049/8398/i/950/depositphotos_83982524-stock-photo-roasted-chicken.jpg"
-          },
-          {
-            "id": 2,
-            "name": "Lasanha de Carne",
-            "description": "Uma lasanha de carne saborosa com molho de tomate",
-            "price": 18.99,
-            "imgUrl": "https://st2.depositphotos.com/1161788/11431/i/950/depositphotos_114318058-stock-photo-lasagna.jpg"
-          },
-          {
-            "id": 3,
-            "name": "Salmão Grelhado",
-            "description": "Um prato saudável de salmão grelhado com legumes",
-            "price": 32.99,
-            "imgUrl": "https://st2.depositphotos.com/1007566/9352/i/950/depositphotos_93525528-stock-photo-grilled-salmon-fillet.jpg"
-          },
-          {
-            "id": 4,
-            "name": "Massa com Molho Pesto",
-            "description": "Uma massa deliciosa com molho pesto de manjericão",
-            "price": 14.99,
-            "imgUrl": "https://st2.depositphotos.com/2851899/8368/i/950/depositphotos_83686226-stock-photo-pasta-with-pesto-sauce.jpg"
-          },
-          {
-            "id": 5,
-            "name": "Hambúrguer",
-            "description": "Um hambúrguer suculento com queijo e batatas fritas",
-            "price": 10.99,
-            "imgUrl": "https://st2.depositphotos.com/1177973/7763/i/950/depositphotos_77636022-stock-photo-hamburger.jpg"
-          }
-        ],
-        "long": -46.876543,
-        "lat": -23.678901
-      },
-      {
-        "id": 9,
-        "imgUrl": "https://st2.depositphotos.com/1020618/7017/i/950/depositphotos_70177953-stock-photo-beef-rump-steak-on-black.jpg",
-        "title": "Restaurante D",
-        "rating": 3.8,
-        "genre": "Cozinha Mexicana",
-        "address": "Rua D, 987 - Bairro W, Cidade Z",
-        "short_description": "Comida mexicana autêntica em ambiente descontraído.",
-        "dishes": [
-          "Tacos",
-          "Burritos",
-          "Guacamole"
-        ],
-        "long": -46.987654,
-        "lat": -23.789012
-      },
-      {
-        "id": 10,
-        "imgUrl": "https://st.depositphotos.com/1020618/4985/i/950/depositphotos_49853237-stock-photo-tasty-beef-steak.jpg",
-        "title": "Restaurante E",
-        "rating": 3.5,
-        "genre": "Cozinha Chinesa",
-        "address": "Rua E, 654 - Bairro V, Cidade W",
-        "short_description": "Comida chinesa variada em ambiente simples.",
-        "dishes": [
-          "Frango Xadrez",
-          "Yakissoba",
-          "Rolinho Primavera"
-        ],
-        "long": -47.098765,
-        "lat": -23.890123
+        "long": -122.43288,
+        "lat": 37.78553
       }
     ]
   }

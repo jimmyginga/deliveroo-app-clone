@@ -80,7 +80,7 @@ const HomeScreen = () => {
               key={restaurant.id}
               id={restaurant.id}
               imgUrl={restaurant.imgUrl}
-              title={restaurant.title}
+              title={restaurant.name}
               rating={restaurant.rating}
               genre={restaurant.genre}
               address={restaurant.address}
